@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "functionAppName": {
+            "value": "PrivateEndpointEventGridFunctionApp"
+        },
+        "runtimeStack": {
+            "value": "dotnet"
+        },
+        "timezone": {
+            "value": "Central European Standard Time"
+        },
+        "storageAccountName": {
+            "value": "testfunctionappstore"
+        },
+        "subscriptionId": {
+            "value": "<hub-subscription-id>"
+        },
+        "resourceGroup": {
+            "value": "<resource-group-containing-private-dns-zones-in-the-hub-subscription>"
+        },
+        "debug": {
+            "value": "false"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrivateEndpointEventGridFunctionApp", "PrivateEndpointEventGridFunctionApp\PrivateEndpointEventGridFunctionApp.csproj", "{9F8B86C1-04E6-466A-AA4F-FEC01F7CFAD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{7FAF864D-7D6F-423D-90BA-FAE8385A26F3}"
+	ProjectSection(SolutionItems) = preProject
+		templates\azuredeploy.json = templates\azuredeploy.json
+		templates\azuredeploy.parameters.json = templates\azuredeploy.parameters.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{67A6D00D-609B-4C74-A248-70DCBC3D8754}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\create-event-azure-function-subscription.sh = scripts\create-event-azure-function-subscription.sh
+		scripts\create-event-grid-viewer-subscription.sh = scripts\create-event-grid-viewer-subscription.sh
+		scripts\create-event-hub-subscription.sh = scripts\create-event-hub-subscription.sh
+		scripts\create-ngrok-subscription.sh = scripts\create-ngrok-subscription.sh
+		scripts\deploy.sh = scripts\deploy.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{5E6119F1-66B8-4967-8DA5-5934451B7B39}"
+	ProjectSection(SolutionItems) = preProject
+		files\events.json = files\events.json
+		files\resources.json = files\resources.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F8B86C1-04E6-466A-AA4F-FEC01F7CFAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8B86C1-04E6-466A-AA4F-FEC01F7CFAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8B86C1-04E6-466A-AA4F-FEC01F7CFAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8B86C1-04E6-466A-AA4F-FEC01F7CFAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2379466-11E6-4C84-8382-D190BA6F84C7}
+	EndGlobalSection
+EndGlobal

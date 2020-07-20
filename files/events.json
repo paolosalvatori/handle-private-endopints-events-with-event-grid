@@ -1,0 +1,214 @@
+{
+    "privateEndpointEvents": [{
+            "subject": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourcegroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/privateEndpoints/BlobStoragePrivateEndpoint",
+            "eventType": "Microsoft.Resources.ResourceDeleteSuccess",
+            "id": "eae72c44-dcb5-4bd4-9351-120e2631cdee",
+            "data": {
+                "authorization": {
+                    "scope": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourceGroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/privateEndpoints/BlobStoragePrivateEndpoint",
+                    "action": "Microsoft.Network/privateEndpoints/delete",
+                    "evidence": {
+                        "role": "Subscription Admin"
+                    }
+                },
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/",
+                    "iat": "1594031150",
+                    "nbf": "1594031150",
+                    "exp": "1594035050",
+                    "_claim_names": "{\"groups\":\"src1\"}",
+                    "_claim_sources": "{\"src1\":{\"endpoint\":\"https://graph.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/users/0c5267b2-01f3-4a59-970e-0d9218d5412e/getMemberObjects\"}}",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "AcQAO/8QAAAA7dpy4DBqICjgzXh3TG4faU2R85+2Itx5sjWA269EMqU0llBLFEQZZGd2mQS0m0B5G/cNt/I6hzypmhr+wuIJsW9csox7pzWRoAW4h1p2dclu3Bv4fEaVmsr7Mp0Y+LRdJ0p+0FtF55zNQXs88yesytxOPDdZBpZROaWmPJb7fk73D9ad7eKZ51MGX2C6Nt5Fd5WyX2pnc66NUxa3TVdjozLrSW6GPSBeccRBA5Os8cI1Tr2rY7XQ8B2lJXAmmgjt",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "rsa,mfa",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "http://schemas.microsoft.com/2012/01/devicecontext/claims/identifier": "f9b11de8-cbb0-42d4-a9e8-6a1a8a310b75",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Salvatori",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Paolo",
+                    "ipaddr": "93.34.128.248",
+                    "name": "Paolo Salvatori",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "0c5267b2-01f3-4a59-970e-0d9218d5412e",
+                    "onprem_sid": "S-1-5-21-1721254763-462695806-1538882281-32076",
+                    "puid": "10037FFE801B5C20",
+                    "rh": "0.ARoAv4j5cvGGr0GRqy180BHbR4NAS8SwO8FJtH2XTlPL3zwaABQ.",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "kCyuckrbKDtb6_A24bTZWcf2lsBERZr-fqtmZYZuI80",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "paolos@microsoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "paolos@microsoft.com",
+                    "uti": "f4tOS53ovU-ZqX4-LbBJAA",
+                    "ver": "1.0"
+                },
+                "correlationId": "2b23cb2c-72af-41a2-b46b-7b0f1b129dee",
+                "resourceProvider": "Microsoft.Network",
+                "resourceUri": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourcegroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/privateEndpoints/BlobStoragePrivateEndpoint",
+                "operationName": "Microsoft.Network/privateEndpoints/delete",
+                "status": "Succeeded",
+                "subscriptionId": "1a45a694-ae23-4650-9774-89a571c462f6",
+                "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+            },
+            "dataVersion": "2",
+            "metadataVersion": "1",
+            "eventTime": "2020-07-06T10:33:11.3958794Z",
+            "topic": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6"
+        },
+        {
+            "subject": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourcegroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/privateEndpoints/BlobStoragePrivateEndpoint",
+            "eventType": "Microsoft.Resources.ResourceWriteSuccess",
+            "id": "72812574-c657-4c36-9048-8c769633c152",
+            "data": {
+                "authorization": {
+                    "scope": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourcegroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/privateEndpoints/BlobStoragePrivateEndpoint",
+                    "action": "Microsoft.Network/privateEndpoints/write",
+                    "evidence": {
+                        "role": "Subscription Admin"
+                    }
+                },
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/",
+                    "iat": "1594031150",
+                    "nbf": "1594031150",
+                    "exp": "1594035050",
+                    "_claim_names": "{\"groups\":\"src1\"}",
+                    "_claim_sources": "{\"src1\":{\"endpoint\":\"https://graph.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/users/0c5267b2-01f3-4a59-970e-0d9218d5412e/getMemberObjects\"}}",
+                    "http://schemas.microsoft.com/claims/authnclassreference": "1",
+                    "aio": "AcQAO/8QAAAA7dpy4DBqICjgzXh3TG4faU2R85+2Itx5sjWA269EMqU0llBLFEQZZGd2mQS0m0B5G/cNt/I6hzypmhr+wuIJsW9csox7pzWRoAW4h1p2dclu3Bv4fEaVmsr7Mp0Y+LRdJ0p+0FtF55zNQXs88yesytxOPDdZBpZROaWmPJb7fk73D9ad7eKZ51MGX2C6Nt5Fd5WyX2pnc66NUxa3TVdjozLrSW6GPSBeccRBA5Os8cI1Tr2rY7XQ8B2lJXAmmgjt",
+                    "http://schemas.microsoft.com/claims/authnmethodsreferences": "rsa,mfa",
+                    "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+                    "appidacr": "2",
+                    "http://schemas.microsoft.com/2012/01/devicecontext/claims/identifier": "f9b11de8-cbb0-42d4-a9e8-6a1a8a310b75",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Salvatori",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Paolo",
+                    "ipaddr": "93.34.128.248",
+                    "name": "Paolo Salvatori",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "0c5267b2-01f3-4a59-970e-0d9218d5412e",
+                    "onprem_sid": "S-1-5-21-1721254763-462695806-1538882281-32076",
+                    "puid": "10037FFE801B5C20",
+                    "rh": "0.ARoAv4j5cvGGr0GRqy180BHbR4NAS8SwO8FJtH2XTlPL3zwaABQ.",
+                    "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "kCyuckrbKDtb6_A24bTZWcf2lsBERZr-fqtmZYZuI80",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "paolos@microsoft.com",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "paolos@microsoft.com",
+                    "uti": "f4tOS53ovU-ZqX4-LbBJAA",
+                    "ver": "1.0"
+                },
+                "correlationId": "2a0deb03-2a97-44c7-b992-61b28129d6c3",
+                "resourceProvider": "Microsoft.Network",
+                "resourceUri": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourcegroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/privateEndpoints/BlobStoragePrivateEndpoint",
+                "operationName": "Microsoft.Network/privateEndpoints/write",
+                "status": "Succeeded",
+                "subscriptionId": "1a45a694-ae23-4650-9774-89a571c462f6",
+                "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+            },
+            "dataVersion": "2",
+            "metadataVersion": "1",
+            "eventTime": "2020-07-06T10:38:10.849308Z",
+            "topic": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6"
+        }
+    ],
+    "networkInterfaceEvents": [{
+            "subject": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourceGroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/networkInterfaces/BlobStoragePrivateEndpoint.nic.2a3c697f-aa4c-4817-abed-dd4ad14320b8",
+            "eventType": "Microsoft.Resources.ResourceDeleteSuccess",
+            "id": "4c95e68a-33ca-416d-a19f-d5955d46414f",
+            "data": {
+                "authorization": {
+                    "scope": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourceGroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/networkInterfaces/BlobStoragePrivateEndpoint.nic.2a3c697f-aa4c-4817-abed-dd4ad14320b8",
+                    "action": "Microsoft.Network/networkInterfaces/delete",
+                    "evidence": {
+                        "role": "Azure Network Service Role",
+                        "roleAssignmentScope": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6",
+                        "roleAssignmentId": "c4edbdb379544778919ce79cfc552660",
+                        "roleDefinitionId": "13ba9ab419f04804adc414ece36cc7a1",
+                        "principalId": "7866265608a44072933ea90dc12af15d",
+                        "principalType": "ServicePrincipal"
+                    }
+                },
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/",
+                    "iat": "1594209349",
+                    "nbf": "1594209349",
+                    "exp": "1594296049",
+                    "aio": "E2BgYLhyRNLk8ARxbRO2H7v+yzDtAwA=",
+                    "appid": "2cf9eb86-36b5-49dc-86ae-9a63135dfa8c",
+                    "appidacr": "2",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "78662656-08a4-4072-933e-a90dc12af15d",
+                    "rh": "0.ARoAv4j5cvGGr0GRqy180BHbR4br-Sy1NtxJhq6aYxNd-owaAAA.",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "78662656-08a4-4072-933e-a90dc12af15d",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+                    "uti": "O48S-ciyv0qcvO967ZJ5AA",
+                    "ver": "1.0"
+                },
+                "correlationId": "253dc488-4406-43ce-a2ce-ae9a2805a23e",
+                "httpRequest": {
+                    "clientRequestId": "883ca20a-4015-484c-bc31-55cdd63f1002",
+                    "clientIpAddress": "104.45.10.115",
+                    "method": "DELETE",
+                    "url": "https://management.azure.com/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourceGroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/networkInterfaces/BlobStoragePrivateEndpoint.nic.2a3c697f-aa4c-4817-abed-dd4ad14320b8?api-version=2020-04-01"
+                },
+                "resourceProvider": "Microsoft.Network",
+                "resourceUri": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourceGroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/networkInterfaces/BlobStoragePrivateEndpoint.nic.2a3c697f-aa4c-4817-abed-dd4ad14320b8",
+                "operationName": "Microsoft.Network/networkInterfaces/delete",
+                "status": "Succeeded",
+                "subscriptionId": "1a45a694-ae23-4650-9774-89a571c462f6",
+                "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+            },
+            "dataVersion": "2",
+            "metadataVersion": "1",
+            "eventTime": "2020-07-08T12:30:11.8010418Z",
+            "topic": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6"
+        },
+        {
+            "subject": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourcegroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/networkInterfaces/BlobStoragePrivateEndpoint.nic.1f0ee09e-03d4-4685-963f-1e759524dbfa",
+            "eventType": "Microsoft.Resources.ResourceWriteSuccess",
+            "id": "9ba43803-f22b-4a40-93dc-3658f5284af0",
+            "data": {
+                "authorization": {
+                    "scope": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourceGroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/networkInterfaces/BlobStoragePrivateEndpoint.nic.1f0ee09e-03d4-4685-963f-1e759524dbfa",
+                    "action": "Microsoft.Network/networkInterfaces/write",
+                    "evidence": {
+                        "role": "Azure Network Service Role",
+                        "roleAssignmentScope": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6",
+                        "roleAssignmentId": "c4edbdb379544778919ce79cfc552660",
+                        "roleDefinitionId": "13ba9ab419f04804adc414ece36cc7a1",
+                        "principalId": "7866265608a44072933ea90dc12af15d",
+                        "principalType": "ServicePrincipal"
+                    }
+                },
+                "claims": {
+                    "aud": "https://management.core.windows.net/",
+                    "iss": "https://sts.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/",
+                    "iat": "1594209349",
+                    "nbf": "1594209349",
+                    "exp": "1594296049",
+                    "aio": "E2BgYLhyRNLk8ARxbRO2H7v+yzDtAwA=",
+                    "appid": "2cf9eb86-36b5-49dc-86ae-9a63135dfa8c",
+                    "appidacr": "2",
+                    "http://schemas.microsoft.com/identity/claims/identityprovider": "https://sts.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/",
+                    "http://schemas.microsoft.com/identity/claims/objectidentifier": "78662656-08a4-4072-933e-a90dc12af15d",
+                    "rh": "0.ARoAv4j5cvGGr0GRqy180BHbR4br-Sy1NtxJhq6aYxNd-owaAAA.",
+                    "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "78662656-08a4-4072-933e-a90dc12af15d",
+                    "http://schemas.microsoft.com/identity/claims/tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+                    "uti": "O48S-ciyv0qcvO967ZJ5AA",
+                    "ver": "1.0"
+                },
+                "correlationId": "6df8b2fe-02af-4a45-adf4-66308c3aef14",
+                "resourceProvider": "Microsoft.Network",
+                "resourceUri": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6/resourcegroups/BlobPrivateEndpointViaPortalRG/providers/Microsoft.Network/networkInterfaces/BlobStoragePrivateEndpoint.nic.1f0ee09e-03d4-4685-963f-1e759524dbfa",
+                "operationName": "Microsoft.Network/networkInterfaces/write",
+                "status": "Succeeded",
+                "subscriptionId": "1a45a694-ae23-4650-9774-89a571c462f6",
+                "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47"
+            },
+            "dataVersion": "2",
+            "metadataVersion": "1",
+            "eventTime": "2020-07-08T12:36:51.8381803Z",
+            "topic": "/subscriptions/1a45a694-ae23-4650-9774-89a571c462f6"
+        }
+    ]
+}
